@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3Qy-fH-vQ7" customClass="SymptomCollectionViewCell" customModule="Therapist" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="103" height="49"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="103" height="49"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="imk-Wq-Y4x" customClass="CommonView" customModule="Therapist" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="10" width="84.5" height="30"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Nft-ke-3HV">
+                                <rect key="frame" x="10" y="5" width="64.5" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alz-Xa-whn">
+                                        <rect key="frame" x="0.0" y="0.0" width="34.5" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itm-KE-b9I" customClass="CommonButton" customModule="Therapist" customModuleProvider="target">
+                                        <rect key="frame" x="44.5" y="0.0" width="20" height="20"/>
+                                        <color key="backgroundColor" red="0.48896604780000003" green="0.15653491019999999" blue="0.28118759389999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="itm-KE-b9I" secondAttribute="height" multiplier="1:1" id="1wY-fo-n01"/>
+                                            <constraint firstAttribute="height" constant="20" id="Rjp-L5-Zlf"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                                        <state key="normal" image="trash" catalog="system"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRounded" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="removeButtonTouchUp" destination="3Qy-fH-vQ7" eventType="touchUpInside" id="cwt-Lr-Bzx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nft-ke-3HV" firstAttribute="leading" secondItem="imk-Wq-Y4x" secondAttribute="leading" constant="10" id="ShV-JC-E0x"/>
+                            <constraint firstAttribute="trailing" secondItem="Nft-ke-3HV" secondAttribute="trailing" constant="10" id="Ttk-FE-erE"/>
+                            <constraint firstItem="Nft-ke-3HV" firstAttribute="top" secondItem="imk-Wq-Y4x" secondAttribute="top" constant="5" id="cGJ-ZO-TgK"/>
+                            <constraint firstAttribute="bottom" secondItem="Nft-ke-3HV" secondAttribute="bottom" constant="5" id="j2D-Mc-GJE"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.48896604780000003" green="0.15653491019999999" blue="0.28118759389999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="imk-Wq-Y4x" firstAttribute="leading" secondItem="3Qy-fH-vQ7" secondAttribute="leading" id="IeL-Sr-1Fk"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="imk-Wq-Y4x" secondAttribute="trailing" id="Rt6-D3-KAi"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="imk-Wq-Y4x" secondAttribute="bottom" id="YEi-fe-jKw"/>
+                <constraint firstItem="imk-Wq-Y4x" firstAttribute="top" secondItem="3Qy-fH-vQ7" secondAttribute="top" constant="10" id="rq7-Gn-gQH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="U2U-sl-S8E"/>
+            <size key="customSize" width="103" height="49"/>
+            <connections>
+                <outlet property="nameLabel" destination="alz-Xa-whn" id="3cW-rD-cCA"/>
+            </connections>
+            <point key="canvasLocation" x="139.85507246376812" y="116.18303571428571"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="trash" catalog="system" width="121" height="128"/>
+    </resources>
+</document>

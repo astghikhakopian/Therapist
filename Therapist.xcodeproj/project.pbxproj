@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0B9F98245D9C9D00654199 /* SymptomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0B9F96245D9C9D00654199 /* SymptomCollectionViewCell.xib */; };
+		EF0B9F99245D9C9D00654199 /* SymptomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B9F97245D9C9D00654199 /* SymptomCollectionViewCell.swift */; };
+		EF35491D245CC030002BF8F8 /* DirectMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35491C245CC030002BF8F8 /* DirectMessageViewController.swift */; };
+		EF354925245CC425002BF8F8 /* IncomingMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF354922245CC424002BF8F8 /* IncomingMessageTableViewCell.xib */; };
+		EF354926245CC425002BF8F8 /* OutgoingMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF354923245CC424002BF8F8 /* OutgoingMessageTableViewCell.xib */; };
+		EF354927245CC425002BF8F8 /* DirectMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF354924245CC425002BF8F8 /* DirectMessageTableViewCell.swift */; };
+		EF354929245CC7DE002BF8F8 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF354928245CC7DE002BF8F8 /* CommonView.swift */; };
+		EF35492C245CCBD6002BF8F8 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35492B245CCBD6002BF8F8 /* MessageModel.swift */; };
+		EF35492F245CD5FF002BF8F8 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF35492E245CD5FF002BF8F8 /* RequestManager.swift */; };
+		EF354931245CD9EC002BF8F8 /* SymptomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF354930245CD9EC002BF8F8 /* SymptomModel.swift */; };
+		EF454102245C8FCC00CEE57B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF454101245C8FCC00CEE57B /* AppDelegate.swift */; };
+		EF454106245C8FCC00CEE57B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF454105245C8FCC00CEE57B /* WelcomeViewController.swift */; };
+		EF454109245C8FCC00CEE57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF454107245C8FCC00CEE57B /* Main.storyboard */; };
+		EF45410B245C8FCF00CEE57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF45410A245C8FCF00CEE57B /* Assets.xcassets */; };
+		EF45410E245C8FCF00CEE57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45410C245C8FCF00CEE57B /* LaunchScreen.storyboard */; };
+		EF45411A245CB0B900CEE57B /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF454119245CB0B900CEE57B /* CommonButton.swift */; };
+		EF45411D245CB1B200CEE57B /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45411C245CB1B200CEE57B /* CommonTextField.swift */; };
+		EF45411F245CB97C00CEE57B /* KeyboardMovingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45411E245CB97C00CEE57B /* KeyboardMovingDelegate.swift */; };
+		EFC4B9DE245DADBA005F6057 /* SymtomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC4B9DD245DADBA005F6057 /* SymtomsViewController.swift */; };
+		EFC4B9E0245DC8F0005F6057 /* DetectDiseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC4B9DF245DC8F0005F6057 /* DetectDiseaseViewController.swift */; };
+		EFC653F3245DD28D0093609F /* DiseaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC653F2245DD28D0093609F /* DiseaseModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF0B9F96245D9C9D00654199 /* SymptomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SymptomCollectionViewCell.xib; sourceTree = "<group>"; };
+		EF0B9F97245D9C9D00654199 /* SymptomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF35491C245CC030002BF8F8 /* DirectMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessageViewController.swift; sourceTree = "<group>"; };
+		EF354922245CC424002BF8F8 /* IncomingMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomingMessageTableViewCell.xib; sourceTree = "<group>"; };
+		EF354923245CC424002BF8F8 /* OutgoingMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutgoingMessageTableViewCell.xib; sourceTree = "<group>"; };
+		EF354924245CC425002BF8F8 /* DirectMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectMessageTableViewCell.swift; sourceTree = "<group>"; };
+		EF354928245CC7DE002BF8F8 /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
+		EF35492B245CCBD6002BF8F8 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		EF35492E245CD5FF002BF8F8 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		EF354930245CD9EC002BF8F8 /* SymptomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomModel.swift; sourceTree = "<group>"; };
+		EF4540FE245C8FCC00CEE57B /* Therapist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Therapist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF454101245C8FCC00CEE57B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF454105245C8FCC00CEE57B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EF454108245C8FCC00CEE57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF45410A245C8FCF00CEE57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF45410D245C8FCF00CEE57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF45410F245C8FCF00CEE57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF454119245CB0B900CEE57B /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		EF45411C245CB1B200CEE57B /* CommonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
+		EF45411E245CB97C00CEE57B /* KeyboardMovingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMovingDelegate.swift; sourceTree = "<group>"; };
+		EFC4B9DD245DADBA005F6057 /* SymtomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymtomsViewController.swift; sourceTree = "<group>"; };
+		EFC4B9DF245DC8F0005F6057 /* DetectDiseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectDiseaseViewController.swift; sourceTree = "<group>"; };
+		EFC653F2245DD28D0093609F /* DiseaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4540FB245C8FCC00CEE57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0B9F95245D9C2A00654199 /* Symptom */ = {
+			isa = PBXGroup;
+			children = (
+				EF0B9F97245D9C9D00654199 /* SymptomCollectionViewCell.swift */,
+				EF0B9F96245D9C9D00654199 /* SymptomCollectionViewCell.xib */,
+			);
+			path = Symptom;
+			sourceTree = "<group>";
+		};
+		EF35491E245CC3DB002BF8F8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF0B9F95245D9C2A00654199 /* Symptom */,
+				EF354921245CC416002BF8F8 /* DirectMessage */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF354921245CC416002BF8F8 /* DirectMessage */ = {
+			isa = PBXGroup;
+			children = (
+				EF354924245CC425002BF8F8 /* DirectMessageTableViewCell.swift */,
+				EF354922245CC424002BF8F8 /* IncomingMessageTableViewCell.xib */,
+				EF354923245CC424002BF8F8 /* OutgoingMessageTableViewCell.xib */,
+			);
+			path = DirectMessage;
+			sourceTree = "<group>";
+		};
+		EF35492A245CCBC5002BF8F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF35492B245CCBD6002BF8F8 /* MessageModel.swift */,
+				EF354930245CD9EC002BF8F8 /* SymptomModel.swift */,
+				EFC653F2245DD28D0093609F /* DiseaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF35492D245CD5E4002BF8F8 /* RequestManagers */ = {
+			isa = PBXGroup;
+			children = (
+				EF35492E245CD5FF002BF8F8 /* RequestManager.swift */,
+			);
+			path = RequestManagers;
+			sourceTree = "<group>";
+		};
+		EF4540F5245C8FCC00CEE57B = {
+			isa = PBXGroup;
+			children = (
+				EF454100245C8FCC00CEE57B /* Therapist */,
+				EF4540FF245C8FCC00CEE57B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4540FF245C8FCC00CEE57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4540FE245C8FCC00CEE57B /* Therapist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF454100245C8FCC00CEE57B /* Therapist */ = {
+			isa = PBXGroup;
+			children = (
+				EF35492D245CD5E4002BF8F8 /* RequestManagers */,
+				EF454116245CAFEA00CEE57B /* ViewControllers */,
+				EF35491E245CC3DB002BF8F8 /* Cells */,
+				EF35492A245CCBC5002BF8F8 /* Models */,
+				EF454117245CAFFC00CEE57B /* Storyboards */,
+				EF454118245CB09700CEE57B /* Utils */,
+				EF454115245CAFC600CEE57B /* Support Files */,
+				EF45410A245C8FCF00CEE57B /* Assets.xcassets */,
+			);
+			path = Therapist;
+			sourceTree = "<group>";
+		};
+		EF454115245CAFC600CEE57B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF45410F245C8FCF00CEE57B /* Info.plist */,
+				EF454101245C8FCC00CEE57B /* AppDelegate.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		EF454116245CAFEA00CEE57B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF454105245C8FCC00CEE57B /* WelcomeViewController.swift */,
+				EF35491C245CC030002BF8F8 /* DirectMessageViewController.swift */,
+				EFC4B9DD245DADBA005F6057 /* SymtomsViewController.swift */,
+				EFC4B9DF245DC8F0005F6057 /* DetectDiseaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF454117245CAFFC00CEE57B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF454107245C8FCC00CEE57B /* Main.storyboard */,
+				EF45410C245C8FCF00CEE57B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF454118245CB09700CEE57B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF454119245CB0B900CEE57B /* CommonButton.swift */,
+				EF45411C245CB1B200CEE57B /* CommonTextField.swift */,
+				EF45411E245CB97C00CEE57B /* KeyboardMovingDelegate.swift */,
+				EF354928245CC7DE002BF8F8 /* CommonView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4540FD245C8FCC00CEE57B /* Therapist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF454112245C8FCF00CEE57B /* Build configuration list for PBXNativeTarget "Therapist" */;
+			buildPhases = (
+				EF4540FA245C8FCC00CEE57B /* Sources */,
+				EF4540FB245C8FCC00CEE57B /* Frameworks */,
+				EF4540FC245C8FCC00CEE57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Therapist;
+			productName = Therapist;
+			productReference = EF4540FE245C8FCC00CEE57B /* Therapist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4540F6245C8FCC00CEE57B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Astghik Hakopian";
+				TargetAttributes = {
+					EF4540FD245C8FCC00CEE57B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EF4540F9245C8FCC00CEE57B /* Build configuration list for PBXProject "Therapist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4540F5245C8FCC00CEE57B;
+			productRefGroup = EF4540FF245C8FCC00CEE57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4540FD245C8FCC00CEE57B /* Therapist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4540FC245C8FCC00CEE57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45410E245C8FCF00CEE57B /* LaunchScreen.storyboard in Resources */,
+				EF45410B245C8FCF00CEE57B /* Assets.xcassets in Resources */,
+				EF354925245CC425002BF8F8 /* IncomingMessageTableViewCell.xib in Resources */,
+				EF454109245C8FCC00CEE57B /* Main.storyboard in Resources */,
+				EF0B9F98245D9C9D00654199 /* SymptomCollectionViewCell.xib in Resources */,
+				EF354926245CC425002BF8F8 /* OutgoingMessageTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4540FA245C8FCC00CEE57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0B9F99245D9C9D00654199 /* SymptomCollectionViewCell.swift in Sources */,
+				EFC4B9DE245DADBA005F6057 /* SymtomsViewController.swift in Sources */,
+				EFC653F3245DD28D0093609F /* DiseaseModel.swift in Sources */,
+				EF454106245C8FCC00CEE57B /* WelcomeViewController.swift in Sources */,
+				EF354927245CC425002BF8F8 /* DirectMessageTableViewCell.swift in Sources */,
+				EF45411F245CB97C00CEE57B /* KeyboardMovingDelegate.swift in Sources */,
+				EF45411A245CB0B900CEE57B /* CommonButton.swift in Sources */,
+				EF45411D245CB1B200CEE57B /* CommonTextField.swift in Sources */,
+				EF35492F245CD5FF002BF8F8 /* RequestManager.swift in Sources */,
+				EF354931245CD9EC002BF8F8 /* SymptomModel.swift in Sources */,
+				EF454102245C8FCC00CEE57B /* AppDelegate.swift in Sources */,
+				EFC4B9E0245DC8F0005F6057 /* DetectDiseaseViewController.swift in Sources */,
+				EF35491D245CC030002BF8F8 /* DirectMessageViewController.swift in Sources */,
+				EF35492C245CCBD6002BF8F8 /* MessageModel.swift in Sources */,
+				EF354929245CC7DE002BF8F8 /* CommonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF454107245C8FCC00CEE57B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF454108245C8FCC00CEE57B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF45410C245C8FCF00CEE57B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF45410D245C8FCF00CEE57B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF454110245C8FCF00CEE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF454111245C8FCF00CEE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF454113245C8FCF00CEE57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYU36ULCN7;
+				INFOPLIST_FILE = "Therapist/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.astghik.Therapist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF454114245C8FCF00CEE57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYU36ULCN7;
+				INFOPLIST_FILE = "Therapist/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.astghik.Therapist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4540F9245C8FCC00CEE57B /* Build configuration list for PBXProject "Therapist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF454110245C8FCF00CEE57B /* Debug */,
+				EF454111245C8FCF00CEE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF454112245C8FCF00CEE57B /* Build configuration list for PBXNativeTarget "Therapist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF454113245C8FCF00CEE57B /* Debug */,
+				EF454114245C8FCF00CEE57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4540F6245C8FCC00CEE57B /* Project object */;
+}
